@@ -8,6 +8,7 @@
 
 import Foundation
 import UIKit
+import QuartzCore
 
 class ActivityIndicatorView: UIView {
     fileprivate static let animationDuration:CFTimeInterval = 0.5
