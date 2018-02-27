@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "LatteTime"
   s.version      = "0.0.1"
-  s.summary      = "A short description of LatteTime."
+  s.summary      = "载入动画"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,9 +25,10 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
+                   固定跳动样式的载入动画，可自定义参数来调整展现方式
                    DESC
 
-  s.homepage     = "http://EXAMPLE/LatteTime"
+  s.homepage     = "https://github.com/hanshuushi/LatteTime/"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -38,8 +39,7 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = "MIT (example)"
-  # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -79,7 +79,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "http://EXAMPLE/LatteTime.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/hanshuushi/LatteTime.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -90,8 +90,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Classes", "Classes/**/*.{h,m}"
-  s.exclude_files = "Classes/Exclude"
+  s.source_files  = "*.{swift,h,m}"
 
   # s.public_header_files = "Classes/**/*.h"
 
@@ -116,8 +115,8 @@ Pod::Spec.new do |s|
   #  the lib prefix of their name.
   #
 
-  # s.framework  = "SomeFramework"
-  # s.frameworks = "SomeFramework", "AnotherFramework"
+  # s.framework  = "UIKit"
+  s.frameworks = "UIKit", "QuartzCore"
 
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"

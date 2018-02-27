@@ -11,7 +11,7 @@ import UIKit
 
 class ActivityIndicatorView: UIView {
     fileprivate static let animationDuration:CFTimeInterval = 0.5
-    fileprivate static let pointColor:UIColor = UIConfig.generalColor.red
+    fileprivate static let pointColor:UIColor = UIColor.red
     fileprivate static let pointDiameter:CGFloat = 10
     fileprivate static let pointJumpHeight:CGFloat = 30
     fileprivate static let pointCurvature:CGFloat = 0.4
