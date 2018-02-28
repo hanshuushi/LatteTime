@@ -1,4 +1,4 @@
-
+<img src="https://github.com/hanshuushi/LatteTime/blob/0.9.0/Demo.gif?raw=true" alt="LatteTime" title="LatteTime" width="171"/>
 
 [![Platform](https://img.shields.io/cocoapods/p/LatteTime.svg?style=flat)](https://cocoapods.org/pods/LatteTime)
 [![Cocoapods Compatible](https://img.shields.io/cocoapods/v/LatteTime.svg?style=flat)](https://cocoapods.org/pods/LatteTime)
