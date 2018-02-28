@@ -324,8 +324,6 @@ extension LatteTime {
                     
                     self.transform = CATransform3DScale(transform, 1.0 - latteTime.pointCurvature, 1.0 + latteTime.pointCurvature, 1.0)
                     
-                    print("transform is \(1.0 - latteTime.pointCurvature) and \(1.0 + latteTime.pointCurvature)")
-                    
                     CATransaction.commit()
                 } else {
                     var rate = _animationProgress / latteTime.curvatureDurationRate
@@ -335,9 +333,6 @@ extension LatteTime {
                     let scaleX = 1.0 + latteTime.pointCurvature - latteTime.pointCurvature * 2.0 * rate
                     
                     let scaleY = 1.0 - latteTime.pointCurvature + latteTime.pointCurvature * 2.0 * rate
-                    
-                    
-//                    print("scaleX is \(scaleX)")
                     
                     CATransaction.begin()
                     CATransaction.setValue(kCFBooleanTrue, forKey: kCATransactionDisableActions)
