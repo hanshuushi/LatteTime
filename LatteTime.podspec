@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "LatteTime"
-  s.version      = "0.0.1"
+  s.version      = "0.1.0"
   s.summary      = "载入动画"
 
   # This description is used to generate tags and improve search results.
@@ -130,6 +130,7 @@ Pod::Spec.new do |s|
 
   s.requires_arc = true
   s.ios.deployment_target = '8.0'
+  s.swift_version = "4.0"
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
