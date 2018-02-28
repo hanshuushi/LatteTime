@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "LatteTime"
-  s.version      = "0.1.0"
+  s.version      = "0.9.0"
   s.summary      = "载入动画"
 
   # This description is used to generate tags and improve search results.
